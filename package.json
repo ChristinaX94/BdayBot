@@ -1,0 +1,13 @@
+{
+  "name": "BDayBot",
+  "version": "1.0.1",
+  "description": "Wishes Happy Birthday",
+  "main": "bot.js",
+  "author": "Christina Trialoni",
+  "scripts":{
+  	"start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.4.0",
+  }
+}
