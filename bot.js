@@ -31,7 +31,7 @@ bot.on('message', message => {
 
                 person = message.member.guild.members.get(person).displayName;
 
-                message.channel.send('@everyone \n :birthday: Happy Birthday '+person+'! \n', {files: ["https://pbs.twimg.com/media/DckCfriWkAIAVhI.jpg"]});
+                message.channel.send('@everyone \n :birthday: Happy Birthday '+person+'! \n', {files: ["https://i.redd.it/00ebex2y96531.png"]});
                 return;
             case 'help':
                message.reply(' Type !bday @member');
